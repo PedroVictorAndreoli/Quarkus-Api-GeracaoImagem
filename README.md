@@ -60,7 +60,6 @@ Antes de iniciar, certifique-se de ter os seguintes requisitos instalados:
  
 Quando uma imagem é enviada, a URL é armazenada no container da MariaDB. Para verificar a URL, execute:
 
-       ```bash
       docker exec -it containerIDdoContainer mariadb -u quarkus -pquarkus -D quarkus
 (Para encontrar o ID do container, execute docker ps.)
 
