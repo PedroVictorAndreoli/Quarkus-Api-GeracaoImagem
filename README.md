@@ -60,6 +60,12 @@ Antes de iniciar, certifique-se de ter os seguintes requisitos instalados:
  
 Quando uma imagem é enviada, a URL é armazenada no container da MariaDB. Para verificar a URL, execute:
 
-```bash
-docker exec -it containerIDdoContainer mariadb -u quarkus -pquarkus -D quarkus
+ ```bash
+ docker exec -it containerIDdoContainer mariadb -u quarkus -pquarkus -D quarkus
+(Para encontrar o ID do container, execute docker ps.)
+
+dentro do banco as informacoes sao armazenadas na tabela profile_photos
+![image](https://github.com/user-attachments/assets/6149b3c9-4873-489a-b199-3b89e7354d4b)
+
+para ver as imagens geradas e so clicar sobre o link armazenado
 
