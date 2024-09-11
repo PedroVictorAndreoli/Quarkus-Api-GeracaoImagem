@@ -58,7 +58,8 @@ Antes de iniciar, certifique-se de ter os seguintes requisitos instalados:
 
 ## Observações
  
-dentro do banco as informacoes sao armazenadas na tabela profile_photos
-![image](https://github.com/user-attachments/assets/6149b3c9-4873-489a-b199-3b89e7354d4b)
+Quando uma imagem é enviada, a URL é armazenada no container da MariaDB. Para verificar a URL, execute:
 
-para ver as imagens geradas e so clicar sobre o link armazenado
+```bash
+docker exec -it containerIDdoContainer mariadb -u quarkus -pquarkus -D quarkus
+
